@@ -1,0 +1,187 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    margin: 0;
+    padding: 0;
+    height: 50px;
+    background: rgb(51, 11, 225);
+
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+}
+
+header .logo a {
+    color: white;
+    margin-left: 10px;
+    font-size: larger;
+}
+
+
+header .logo img {
+    margin-left: 5px;
+    width: 20%;
+    align-items: center;
+
+}
+
+header ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+
+}
+
+header ul li a {
+    padding-right: 20px;
+    color: white;
+    align-items: center;
+}
+
+/* sign up */
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 20px auto;
+    min-height: inherit;
+
+}
+
+main .big-box {
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 600px;
+    min-height: 200px;
+
+}
+
+main .box-title {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    display: flex;
+    align-items: start;
+    text-align: start;
+    background-color: rgb(51, 11, 225);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    color: white;
+
+}
+
+main table {
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table td {
+    text-align: left;
+    padding-left: 15px;
+}
+
+table th {
+    text-align: right;
+}
+
+.submit-btn {
+    padding-right: 10px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+
+}
+
+/* index */
+.text-area {
+    display: flex;
+    align-items: center;
+}
+
+.publish-btn {
+    margin-left: 10px;
+}
+.user-post{
+    height: 50px;
+    text-align: left; 
+    margin-top: 15px;
+}
+.tweet-img{
+    font-size: 48px;
+    color: blue;
+    float: left;
+    margin-right: 10px;
+}
+.tweet-text{
+padding-top: 8px;
+
+}
+.user-name {
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+
+
+/* user */
+.filter{
+    text-align: left;
+    margin: 10px 10px;
+}
+.users-gallery {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.user {
+    margin: 0px 10px 10px 10px;
+    border: 3px solid silver;
+    width: 130px;
+    min-height: 150px;
+}
+
+.user-img {
+    font-size: 48px;
+    color: blue;
+}
+
+.col {
+    border: 3px solid silver;
+    padding: 10px 10px;
+    margin-left: 100px;
+}
+.followers{
+    text-align: center;
+  }
